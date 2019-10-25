@@ -1,0 +1,87 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "aaaLogin": {
+                "attributes": {
+                    "token": "/spUx7w7mCphTP+jb8l1ED8YAHgD1t6lADElfwXtCTBpz0fiME1YK7EgrouHNk0Vo1Huh13YY1gyLmmXg3XOIBDA0wMyvcnFqve0XF8QUf/A/mypWW4IgGujm1fOXcIDWLxPLW4otaVYKpij+uUhLt3pEHo0S9XXtWph7KRZp5k=",
+                    "siteFingerprint": "8w4od9fhgb0ywKPw",
+                    "refreshTimeoutSeconds": "600",
+                    "maximumLifetimeSeconds": "86400",
+                    "guiIdleTimeoutSeconds": "1200",
+                    "restTimeoutSeconds": "90",
+                    "creationTime": "1572014493",
+                    "firstLoginTime": "1572014493",
+                    "userName": "admin",
+                    "remoteUser": "false",
+                    "unixUserId": "15374",
+                    "sessionId": "SJzZI6JiQOO0mBPdIALUDg==",
+                    "lastName": "",
+                    "firstName": "",
+                    "version": "1.1(2h)",
+                    "buildTime": "Sun Aug 16 17:22:46 PDT 2015",
+                    "node": "topology/pod-1/node-1"
+                },
+                "children": [
+                    {
+                        "aaaUserDomain": {
+                            "attributes": {
+                                "name": "all",
+                                "rolesR": "admin",
+                                "rolesW": "admin"
+                            },
+                            "children": [
+                                {
+                                    "aaaReadRoles": {
+                                        "attributes": {}
+                                    }
+                                },
+                                {
+                                    "aaaWriteRoles": {
+                                        "attributes": {},
+                                        "children": [
+                                            {
+                                                "role": {
+                                                    "attributes": {
+                                                        "name": "admin"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DnDomainMapEntry": {
+                            "attributes": {
+                                "dn": "uni/tn-common",
+                                "readPrivileges": "admin",
+                                "writePrivileges": "admin"
+                            }
+                        }
+                    },
+                    {
+                        "DnDomainMapEntry": {
+                            "attributes": {
+                                "dn": "uni/tn-infra",
+                                "readPrivileges": "admin",
+                                "writePrivileges": "admin"
+                            }
+                        }
+                    },
+                    {
+                        "DnDomainMapEntry": {
+                            "attributes": {
+                                "dn": "uni/tn-mgmt",
+                                "readPrivileges": "admin",
+                                "writePrivileges": "admin"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
